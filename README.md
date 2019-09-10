@@ -1,3 +1,11 @@
+Rebuid of my portfolio website. Rebuilt using React. Currently in early development, a (hopefully) evolving version of this project is viewable at http://react.kristibbs.co.uk/
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
