@@ -1,0 +1,32 @@
+// Mixin for easy media queries: @include bp(m) {};
+@mixin bp ($bp) {
+    @if $bp == xl {
+      @media (min-width: $bp4) { @content ; }
+    }
+    @else if $bp == l {
+      @media (min-width: $bp3) { @content ; }
+    }
+    @else if $bp == m {
+      @media (min-width: $bp2) { @content ; }
+    }
+    @else if $bp ==  s {
+      @media (min-width: $bp1)  { @content ; }
+    }
+    @else if $bp == maxmob {
+      @media (max-width: $bp1)  { @content ; }
+  
+    }
+  }
+
+  /*@mixin font-size($sizeValue) {
+    $length: $sizeValue;
+    $value: $length ;
+    font-size: ($value);
+    font-size: ($value) + rem;
+  }*/
+
+
+  @mixin font-size($sizeValue) {
+    font-size: ($sizeValue * 10) + px;
+    font-size: $sizeValue + rem;
+  }

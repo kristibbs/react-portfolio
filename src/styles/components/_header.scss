@@ -1,0 +1,31 @@
+header.header-main {
+    display: flex;
+    margin: auto;
+    padding-top: $spacing-gutter;
+    flex-direction: column;
+    @include bp(s) {
+       flex-direction: row;
+       width: 90%;
+        }
+}
+
+
+
+.site-logo {
+    flex: 1 1 auto;
+    text-align: center;
+    @include bp(s) {
+        text-align: left;
+    }
+    h1 {
+        margin: 0;
+        font-size: $font-size-h1;
+        @include bp(s) {
+            font-size: $font-size-large;
+        }
+    }
+    p {
+        margin: 0;
+    }
+
+}

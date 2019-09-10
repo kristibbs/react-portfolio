@@ -1,0 +1,24 @@
+.footer-section {
+    background: #1c1c1c;
+    display: flex;
+    color: #fff;
+    @include font-size($font-size-small);
+    text-align: center;
+    font-family: $font-family-base;
+    @include bp(m) {
+    @include font-size($font-size-base);
+    }
+    p {
+        margin-bottom: $spacing-s;
+    }
+
+     a {
+        color: #fff;
+        text-decoration: none;
+        &:hover {
+            color: darken(#fff, 20%);
+        }
+    }
+
+}
+

@@ -1,0 +1,28 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+    body {
+        @include font-size($font-size-base);
+        font-family: $font-family-base;
+        @include bp(m) {
+        @include font-size($font-size-base-desktop);
+    }
+}
+
+button {
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: default;
+}
+
+.is-active {
+    font-weight: bold;
+}

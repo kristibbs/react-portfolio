@@ -1,0 +1,14 @@
+.main {
+    margin: auto;
+    width: 90%;
+    max-width: 1000px;
+}
+
+.title-wrap {
+    width: 100%;
+   /* border-bottom: 10px solid $secondary-colour;
+    border-right: 10px solid #fff;*/
+    @include bp(s) {
+        border-bottom: 2px solid $secondary-colour;
+    }
+}

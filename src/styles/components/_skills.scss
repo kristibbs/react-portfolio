@@ -1,0 +1,23 @@
+.tech-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    li {
+        border: 2px solid $secondary-colour;
+        margin: 10px 10px;
+        width: 95px;
+        justify-content: flex-end;
+        display: flex;
+        height: 95px;
+        flex: 1 1 auto;
+        flex-direction: column;
+        font-weight: $font-weight-bold;
+        color: $dark-blue;
+        @include bp(s) {
+            min-width: 130px;
+            width: auto;
+        }
+    }
+}

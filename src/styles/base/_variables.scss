@@ -1,0 +1,51 @@
+// fonts
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Permanent+Marker|Roboto&display=swap');
+
+
+$font-family-sans-serif:  	'Open Sans', Arial;
+$font-headers: 				'Open Sans', serif;
+$font-family-serif:       	'Open Sans', serif;
+$font-family-monospace:   	Menlo, Monaco, Consolas, "Courier New", monospace !default;
+$font-family-base:        	$font-family-sans-serif;
+$headings-font-family:    	$font-family-serif;
+
+$font-size-base:          1.6;
+$font-size-base-desktop: 1.8;
+$font-size-large:         3.4;   
+$font-size-small:         1.4;  
+$font-size-h1:            2.8; 
+$font-size-h2:            2.2;  
+$font-size-h3:            2; 
+$font-size-h4:            1.8;   
+$font-size-h5:            1.6; 
+$font-size-h6:            1.4;
+
+
+$font-weight-bold: 700;
+
+// spacing
+//m size
+$spacing-gutter: 			1.5rem;
+$spacing-xs: 				0.5rem;
+$spacing-s: 				1rem;
+$spacing-m: 				3rem;
+$spacing-l: 				6rem;
+$spacing-xl: 				10rem;
+
+
+// Colours
+$primary-colour: rgb(99,173,242);
+$secondary-colour: rgb(84,94,117);
+$link-colour: rgb(99,173,242);
+$link-colour-hover: darken(rgb(99,173,242), 20%);
+$highlight-colour: rgb(77,161,103);
+$grey: #ccc;
+$dark-blue: rgb(48,77,109);
+
+
+//variables for the breakpoints. 
+$bp1: 48rem;
+$bp2: 60rem;
+$bp3: 90rem;
+$bp4: 120rem;
