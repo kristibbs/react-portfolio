@@ -1,0 +1,55 @@
+.carousel-wrapper {
+    margin-bottom: $spacing-m;
+    @include bp(m) {
+        margin-bottom: $spacing-l;
+    }
+}
+
+.carousel.carousel-slider {
+    border: 8px solid $dark-blue;
+    border-radius: 6px;
+    margin: $spacing-s 0;
+    @include bp(m) {
+        margin: $spacing-m 0;
+    }
+.slide {
+    .slide-intro {
+        display: none;
+        @include bp(m) {
+        display: block;
+        position: absolute;
+        top: 0;
+        background: $dark-blue;
+        opacity: 0.9;
+        color: #fff;
+        padding: $spacing-s;
+        margin-top: 0;
+    }
+}
+.legend {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin-left: 0;
+    opacity: 0.9;
+    border-radius: 0;
+    margin-bottom: 0;
+    background-color:$dark-blue;
+}
+.legend a {
+    color: #fff;
+}
+}
+
+}
+
+.carousel {
+.thumbs {
+    display: flex;
+}
+.thumb {
+width: auto;
+flex: 1 1 auto;
+}
+}
